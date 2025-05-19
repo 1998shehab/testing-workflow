@@ -32,7 +32,7 @@ jobs:
       run: |
         docker build . \
           --file Dockerfile \
-          --tag 80202038201.dkr.ecr.eu-north-1.amazonaws.com/custody-solution-api-dev:${{ env.IMAGE_TAG }}
+          --tag 780202038201.dkr.ecr.eu-north-1.amazonaws.com/custody-solution-api-dev:${{ env.IMAGE_TAG }}
 
     - name: Push to ECR
       id: ecr
