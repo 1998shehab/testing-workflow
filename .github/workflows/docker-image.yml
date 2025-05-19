@@ -22,7 +22,7 @@ jobs:
         aws-region: eu-north-1
 
     - name: Set timestamp for tag
-      run: echo "IMAGE_TAG=$(date +%s)" >> $GITHUB_ENV
+      run: echo "IMAGE_TAG=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
 
     - name: Login to Amazon ECR
       id: login-ecr
