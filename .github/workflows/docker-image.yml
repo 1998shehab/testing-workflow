@@ -41,6 +41,6 @@ jobs:
         access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: eu-north-1
-        image: 80202038201.dkr.ecr.eu-north-1.amazonaws.com/custody-solution-api-dev:${{ env.IMAGE_TAG }}
+        image: 780202038201.dkr.ecr.eu-north-1.amazonaws.com/custody-solution-api-dev:${{ env.IMAGE_TAG }}
         
     
