@@ -32,7 +32,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.ROX_CUSTODY_COMMON_MODULES_TOKENS }}
       run: |
-        git clone https://$GH_TOKEN//github.com/Dafa-Co/rox-custody_common-modules.git rox-custody_common-modules
+        git clone https://$GH_TOKEN@github.com/Dafa-Co/rox-custody_common-modules.git rox-custody_common-modules
 
     - name: Build, Tag, and Push the Image to Amazon ECR
       id: build-image
